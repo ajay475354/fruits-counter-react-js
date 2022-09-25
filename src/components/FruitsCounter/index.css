@@ -1,0 +1,88 @@
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+}
+@media screen and(min-width:768px) {
+  .card-container {
+    width: 50vw;
+    height: 50vh;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 300;
+  color: #000000;
+}
+.span {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffd569;
+}
+@media screen and(min-width:768px) {
+  .span {
+    font-size: 35px;
+  }
+}
+.bouth-images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.mango {
+  height: 80px;
+  width: 80px;
+}
+@media screen and(min-width:768px) {
+  .mango {
+    height: 90px;
+    width: 90px;
+  }
+}
+.banana {
+  height: 80px;
+  width: 80px;
+}
+@media screen and (min-width: 768px) {
+  .banana {
+    height: 80px;
+    width: 80px;
+  }
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin: 15px;
+}
